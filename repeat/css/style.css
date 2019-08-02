@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: sans-serif;
+  background: linear-gradient(#ebf4f4, transparent 1px), linear-gradient(90deg, #ebf4f4, transparent 1px);
+  background-size: 5px 5px;
+  background-position: center center;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin: auto;
+  margin-top: 103px;
+  display: flex;
+  height: 373px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+  border: 1px solid #cfdede;
+  background-color: #ffffff;
+}
+
+.block-headline {
+  width: 149px;
+  height: 25px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+  background-color: #01b3b3;
+  padding: 3px 9px;
+  margin-left: 30px;
+  margin-top: -5px;
+}
+
+.block-headline__text {
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+.block-input {
+  width: 260px;
+  margin-top: 34px;
+  margin-left: 30px;
+}
+
+.block-input__details {
+  width: 260px;
+  height: 32px;
+  background-color: #ffffff;
+  background: linear-gradient(#ebf4f4, transparent 1px), linear-gradient(90deg, #ebf4f4, transparent 1px);
+  background-size: 5px 5px;
+  background-position: center center;
+  border-radius: 2px;
+  border: 1px solid #cfdede;
+  color: #777777;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 12px;
+  padding: 11px 11px;
+  margin-bottom: 17px;
+}
+
+.block-input__text {
+  display: block;
+  color: #333333;
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+
+.block-input__button {
+  width: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), inset 0 1px 2px #ffffff;
+  border: 0;
+  border-radius: 5px;
+  background-color: #01b3b3;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.24) 0%, rgba(255, 255, 255, 0.24) 100%);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 43px;
+  text-transform: uppercase;
+  margin-top: 18px;
+}
+
+.block-input__star {
+  color: #01b3b3;
+}
