@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.hero {
+  margin-bottom: 96px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  width: 526px;
+  margin-top: 137px;
+  margin-left: 74px;
+}
+
+.hero-block {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-button {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 53px;
+}
+
+.image {
+  margin-top: 77px;
+}
+
+.headline {
+  color: #000000;
+  font-family: Tahoma;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.author {
+  color: #000000;
+  font-family: Tahoma;
+  font-size: 30px;
+  font-weight: 400;
+  padding-top: 15px;
+}
+
+.description {
+  color: #000000;
+  font-family: Tahoma;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  padding-top: 35px;
+}
+
+.price {
+  color: #313131;
+  font-family: Tahoma;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 27px;
+  padding-top: 47px;
+}
+
+.buy-button {
+  border-radius: 5px;
+  background-color: #f05a22;
+  border: 0;
+  padding: 21px 42px;
+  color: #ffffff;
+  font-family: Tahoma;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.details-button {
+  border-radius: 5px;
+  border: 2px solid #f05a22;
+  background-color: #fff;
+  color: #f05a22;
+  font-family: Tahoma;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27px;
+  padding: 21px 30px;
+}
+
+.main {
+  background-color: #f2f2f2;
+  padding-top: 89px;
+  padding-bottom: 99px;
+  text-align: center;
+}
+
+.main-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-delivery {
+  color: #333333;
+  font-family: Tahoma;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.main-job {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 91px;
+}
+
+.main-types {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-relation {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.relation-first {
+  width: 181px;
+  padding-top: 16px;
+}
+
+.relation-second {
+  width: 241px;
+  padding-top: 23px;
+}
+
+.relation-third {
+  width: 194px;
+  padding-top: 26px;
+}
+
+.relation-fourth {
+  width: 194px;
+  padding-top: 23px;
+}
